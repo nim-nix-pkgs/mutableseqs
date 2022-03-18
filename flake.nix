@@ -7,6 +7,14 @@
   inputs.flakeNimbleLib.type  = "github";
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
+  inputs."mutableseqs-master".dir   = "master";
+  inputs."mutableseqs-master".owner = "nim-nix-pkgs";
+  inputs."mutableseqs-master".ref   = "master";
+  inputs."mutableseqs-master".repo  = "mutableseqs";
+  inputs."mutableseqs-master".type  = "github";
+  inputs."mutableseqs-master".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."mutableseqs-master".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
     lib  = flakeNimbleLib.lib;
