@@ -11,6 +11,7 @@
   inputs.src-mutableseqs-master.ref   = "refs/heads/master";
   inputs.src-mutableseqs-master.owner = "iourinski";
   inputs.src-mutableseqs-master.repo  = "mutableseqs";
+  inputs.src-mutableseqs-master.dir   = "";
   inputs.src-mutableseqs-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
