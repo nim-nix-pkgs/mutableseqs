@@ -182,11 +182,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1667334616,
-        "narHash": "sha256-r3mA8kel0S/wCRpacsFUUPQDKukEyu3JDIoec6xD14I=",
+        "lastModified": 1668748887,
+        "narHash": "sha256-dRH63COi16m4PXjhUzpFwIgiPJ+BV89cdoEStMEOdos=",
         "owner": "nim-nix-pkgs",
         "repo": "mutableseqs",
-        "rev": "4f2756638528069b1277ea61a137891fa09b306c",
+        "rev": "0c19adb62d361b2569c31d34574da6112daa33af",
         "type": "github"
       },
       "original": {
